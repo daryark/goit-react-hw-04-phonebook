@@ -15,8 +15,6 @@ import {
 } from './reexport';
 
 export function App() {
-  //contacts: JSON.parse(localStorage.getItem('contacts')) ??  [...] instead of doing check in componentDidMount()
-
   const [contacts, setContacts] = useState([
     { id: 'id-1', name: 'Rosie Simpson', number: '459-12-56' },
     { id: 'id-2', name: 'Hermione Kline', number: '443-89-12' },
